@@ -1,3 +1,5 @@
+The output is given in SmartCommute_Affordability_Analyzer.xlsx from the user inputs provided via running the Python script in the console/terminal.
+
 # A sample Input
 Enter office latitude (e.g. 25.0780): 25.0780
 Enter office longitude (e.g. 55.1310): 55.1310
