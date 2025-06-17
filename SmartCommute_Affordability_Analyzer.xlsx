@@ -1,0 +1,22 @@
+# A sample Input
+Enter office latitude (e.g. 25.0780): 25.0780
+Enter office longitude (e.g. 55.1310): 55.1310
+Enter shift start time (HH:MM, 24h format, e.g. 09:00): 09:00
+
+# A sample Output
+Residential Area	      Avg Rent (AED)	Distance (km)	Commute Time (min)	Transport Mode	Monthly Transport Cost (AED)	Must Leave At
+Dubai Marina	            7500	           0.00	            0.0	               Metro	              0.00	                  08:59
+Jumeirah Lake Towers	    5200	           2.00	            3.0	               Metro	              66.00	                  08:57
+Jumeirah Beach Residence	7200	           3.12             4.7	               Metro	              103.32	                08:55
+Business Bay	            6000	           6.12        	    9.2	               Metro	              203.28	                08:50
+Al Barsha	                4800	           7.00	            21.0             	 Bus	                92.40	                  08:39
+Al Quoz	                  4500	           7.85	            23.6	             Bus	                103.62                	08:37
+Dubai Silicon Oasis     	4300	           8.50	            25.5	             Bus	                112.20                 	08:35
+
+
+# Note
+- Transport cost is calculated as:
+distance * cost_per_km * 22 working days * 2 (round trip)
+- The “Must Leave At” column shows the latest time to start commute to reach office by 9:00 AM.
+- Commute time is computed using the average speed of the transport mode.
+- Areas farther or with higher rent appear lower in the list.
