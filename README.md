@@ -1,6 +1,6 @@
 # Smart-Commute-Dubai
 An innovative Python + SQLite project designed to help Dubai residents and expats make smart housing and commute decisions.  
-
+**INCOMPLETE**
 ## Features
 - Input any office location in Dubai by latitude & longitude  
 - Analyze over 20+ popular residential areas for:  
